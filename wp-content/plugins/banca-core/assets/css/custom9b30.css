@@ -1,0 +1,1060 @@
+/*================== Heading Widget ====================*/
+.elementor-heading-title span {
+    position: relative;
+}
+
+.elementor-heading-title span::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: transparent;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+/*================== Text Underline Home 04 ====================*/
+.underline-shape {
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+}
+
+.underline-shape::after {
+    content: "";
+    position: absolute;
+    left: -4px;
+    width: calc(100% + 8px);
+    bottom: 7px;
+    background-color: #72b1ff;
+    z-index: -1;
+    height: 27%;
+}
+
+/*========== Testimonials ===============*/
+.rating li {
+    display: inline-block;
+}
+
+.rating a .icon_star_alt {
+    color: #DEDEDE !important;
+}
+
+/*====== Cards =======*/
+.feature-area-2 .feature-img img {
+    width: auto;
+}
+
+/*====== Steps ========*/
+.how-it-work .apply-online .widget-img img {
+    max-width: initial;
+}
+
+/***========= Images Section ===========***/
+.banca_images_animation2 {
+    overflow: visible;
+}
+
+.track-f-progress .img-content .bg-img,
+.card-payment .img-content .bg-img,
+.internet-banking .img-content .bg-img,
+.banca_images_animation2 .hero-img img,
+.banca_images_animation3 .card-img img,
+.safe-deposit-area .card-img img,
+.blog_sidebar .recent_news_widget .media img {
+    max-width: inherit;
+}
+
+.banner-area-3 .position-relative .person-img {
+    max-width: initial;
+}
+
+/* testimonial style */
+.testimonial_style_five .client-slider .single-client img {
+    margin-left: 39%;
+    background-color: var(--bs-white);
+    box-shadow: 0 8px 40px rgba(63, 93, 101, 0.2);
+    padding: 20px;
+}
+
+.testimonial_style_five .client-slider .single-client {
+    background: var(--bs-white);
+}
+
+.testimonial_style_five .client-slider .slick-dots li.slick-active {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #0050B2;
+    border-radius: 100px;
+}
+
+.testimonial_style_five .client-slider .slick-dots li.slick-active button {
+    background-color: #0050B2;
+}
+
+.testimonial_style_five .client-slider .slick-dots li {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #fff;
+    border-radius: 100px;
+}
+
+.testimonial_style_five .client-slider .slick-dots li button {
+    margin: 14px;
+    background-color: #D4D4D4;
+}
+
+.testimonial_style_five .client-slider .single-client .client-info {
+    display: unset;
+}
+
+.testimonial_style_five .client-info .testimonial_title,
+.testimonial_style_five .client-info .testimonial_content {
+    text-align: center;
+}
+
+/* video style */
+.video_section .video {
+    display: inline;
+    background-color: var(--bs-white);
+    border-radius: 100px;
+    padding: 27px 29px;
+}
+
+
+/*Testimonial css*/
+@media(max-width: 768px) {
+    .client-slider-2 .slick-prev {
+        display: none !important;
+    }
+
+    .client-slider-2 .slick-next {
+        display: none !important;
+    }
+}
+
+/*banner css*/
+@media(max-width: 767px) {
+    .banner-area-5 .banner-content .co-operators {
+        margin-top: 50px;
+    }
+}
+
+
+/*====================== Loan Calculator ========================*/
+.calculator-widget-2 {
+    background-color: var(--bs-white);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.calculator-widget-2 .single-calculator-widget {
+    padding: 40px 68px;
+    padding-right: 10px;
+}
+
+.calculator-widget-2 .single-calculator-widget h4 {
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 42px;
+    letter-spacing: -0.02em;
+    color: #18181b;
+}
+
+.calculator-widget-2 .single-calculator-widget .single-range {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.calculator-widget-2 .single-calculator-widget .single-range .tab-content {
+    width: calc(100% - 180px);
+}
+
+.calculator-widget-2 .single-calculator-widget .single-range .tab-content .noUi-horizontal {
+    width: 100%;
+}
+
+.calculator-widget-2 .single-calculator-widget .single-range .noUi-horizontal {
+    width: calc(100% - 180px);
+    height: 9px;
+    background-color: #edeff3;
+    border-radius: 5px;
+}
+
+.calculator-widget-2 .single-calculator-widget .single-range .noUi-horizontal .noUi-handle {
+    width: 24px;
+    height: 24px;
+    right: -11px;
+    border-radius: 50%;
+    background-color: var(--bs-white);
+    top: -7px;
+    box-shadow: 0px 8px 10px 0px #bdc5d6cc;
+    cursor: pointer;
+}
+
+.calculator-widget-2 .single-calculator-widget .single-range .noUi-horizontal .noUi-pips {
+    display: none;
+}
+
+.calculator-widget-2 .single-calculator-widget .single-range .noUi-horizontal .noUi-connects {
+    border-radius: 5px;
+}
+
+.calculator-widget-2 .single-calculator-widget .single-range h6 {
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: var(--color_se);
+}
+
+.calculator-widget-2 .single-calculator-widget .single-range .input-group {
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    flex: 1;
+    overflow: hidden;
+}
+
+.calculator-widget-2 .single-calculator-widget .single-range .input-group .input-group-text {
+    width: 48px;
+    background-color: #f8f9fe;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #a3aec2;
+    padding: 0;
+    border: none;
+    border-radius: 6px;
+    justify-content: center;
+    text-transform: capitalize;
+}
+
+.calculator-widget-2 .single-calculator-widget .single-range input[type=text] {
+    height: 47px;
+    border-radius: 6px;
+    background-color: var(--bs-white);
+    font-size: 18px;
+    font-weight: 500;
+    color: #18181b;
+    width: 105px;
+    text-align: start;
+    padding-left: 14px;
+    border: none;
+}
+
+.calculator-widget-2 .single-calculator-widget .single-range input[type=text]:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.calculator-widget-2 .single-calculator-widget .single-range .nav-tabs {
+    background-color: rgba(0, 80, 178, 0.1);
+    border-radius: 15px;
+    overflow: hidden;
+    border: none;
+    position: relative;
+    z-index: 1;
+}
+
+.calculator-widget-2 .single-calculator-widget .single-range .nav-tabs .active_bar {
+    position: absolute;
+    height: 29px;
+    left: 95px;
+    width: 81px;
+    border-radius: 15px;
+    background-color: var(--primary-color);
+    top: 0;
+    z-index: -1;
+    transition: all 0.3s ease-out;
+}
+
+.calculator-widget-2 .single-calculator-widget .single-range .nav-tabs .active_bar.left {
+    width: 95px;
+    left: 0;
+}
+
+.calculator-widget-2 .single-calculator-widget .single-range .nav-tabs .nav-item {
+    border: none;
+}
+
+.calculator-widget-2 .single-calculator-widget .single-range .nav-tabs .nav-item .nav-link {
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: 400;
+    height: 30px;
+    line-height: 29px;
+    padding: 0 25px;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+    color: var(--theme-text-color);
+    transition: all 0.3s ease-out;
+    position: relative;
+    z-index: 1;
+}
+
+.calculator-widget-2 .single-calculator-widget .single-range .nav-tabs .nav-item .nav-link.active {
+    color: #fff;
+}
+
+.calculator-widget-2 .single-calculator-widget .range-label {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #788694;
+    margin-bottom: 5px;
+}
+
+.calculator-widget-2 .single-calculator-widget .loan-type-select {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    border-bottom: none;
+}
+
+.calculator-widget-2 .single-calculator-widget .loan-type-select button {
+    border: 1px solid #cccccc;
+    padding: 8px 20px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: var(--black_500);
+    background-color: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+
+.calculator-widget-2 .single-calculator-widget .loan-type-select button.active {
+    box-shadow: 0 8px 20px 0 #0050b24d;
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    color: #fff;
+}
+
+.calculator-widget-2 .calculator-result-widget {
+    padding: 40px;
+    background-color: #f8f9fe;
+}
+
+.calculator-widget-2 .pie-wrapper {
+    height: 1em;
+    width: 1em;
+    margin: auto;
+    margin-bottom: 30px;
+    position: relative;
+    font-size: 16em;
+}
+
+.calculator-widget-2 .pie-wrapper .label {
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 50%;
+    color: #6a737c;
+    cursor: default;
+    display: block;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.calculator-widget-2 .pie-wrapper .label h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #18181b;
+    margin-bottom: 0;
+    margin-top: 14px;
+}
+
+.calculator-widget-2 .pie-wrapper .pie {
+    height: 100%;
+    width: 100%;
+    clip: rect(0, 1em, 1em, 0.5em);
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+
+.calculator-widget-2 .pie-wrapper .pie .half-circle {
+    height: 100%;
+    width: 100%;
+    border: 0.09em solid #f97857;
+    border-radius: 50%;
+    clip: rect(0, 0.5em, 1em, 0);
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+
+.calculator-widget-2 .pie-wrapper .circle-border {
+    height: 100%;
+    width: 100%;
+    border: 0.09em solid #0065ef;
+    border-radius: 50%;
+}
+
+.calculator-widget-2 .graph-indicator {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #788694;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+.calculator-widget-2 .graph-indicator span {
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    margin-right: 8px;
+}
+
+.calculator-widget-2 .graph-indicator span.orange-dot {
+    background-color: #f97857;
+}
+
+.calculator-widget-2 .loan-calculation {
+    margin-top: 45px;
+}
+
+.calculator-widget-2 .loan-calculation li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+    font-family: "Roboto", sans-serif;
+}
+
+.calculator-widget-2 .loan-calculation li:last-child {
+    border-top: 1px solid #d9dbe5;
+    padding-top: 18px;
+}
+
+.calculator-widget-2 .loan-calculation li .label {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #6a737c;
+    display: inline-block;
+}
+
+.calculator-widget-2 .loan-calculation li .amount {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #18181b;
+    display: inline-block;
+    text-transform: capitalize;
+}
+
+.calculator-widget-2 .loan-start-date {
+    gap: 24px;
+    margin-top: 76px;
+}
+
+.calculator-widget-2 .loan-start-date .inp-container {
+    position: relative;
+}
+
+.calculator-widget-2 .loan-start-date .inp-container::before {
+    content: "";
+    position: absolute;
+    font-family: "ElegantIcons";
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    font-size: 20px;
+    content: "3";
+    display: block;
+    pointer-events: none;
+    position: absolute;
+    right: 13px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
+    color: #0050b2;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.calculator-widget-2 .loan-start-date .inp-container:hover::before {
+    opacity: 1;
+    visibility: visible;
+}
+
+.calculator-widget-2 .loan-start-date input {
+    margin-top: 12px;
+    width: 240px;
+    border-radius: 6px;
+    height: 47px;
+    border: 1px solid rgba(204, 204, 204, 0.5);
+    padding: 0 16px;
+    background-color: transparent;
+    font-size: 18px;
+    font-weight: 500;
+    color: #a3aec2;
+    position: relative;
+}
+
+.calculator-widget-2 .loan-start-date input::placeholder {
+    color: #a3aec2;
+}
+
+.calculator-widget-2 .loan-start-date input.active,
+.calculator-widget-2 .loan-start-date input:hover {
+    border: 1px solid #cccccc;
+    color: #18181b;
+}
+
+.calculator-widget-2 .loan-start-date input.active::placeholder,
+.calculator-widget-2 .loan-start-date input:hover::placeholder {
+    color: #18181b;
+}
+
+/* new css */
+@media(max-width: 575px) {
+    .single-calculator-widget .d-flex {
+        display: flex !important;
+        flex-direction: column;
+    }
+
+    .calculator-widget-2 .single-calculator-widget {
+        padding: 40px 10px;
+    }
+}
+
+.elementor-heading-title.title-gradient span {
+    background: linear-gradient(90deg, #53DFC6 45.35%, #6299FC 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.cta4 .cta-content .theme-btn {
+    border-radius: 4px !important;
+    margin-left: 1rem !important;
+}
+
+/* pricing css start */
+
+.pricing_tab_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricing_tab_btn span {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #878BA9;
+}
+
+.pricing_tab_btn.active span {
+    color: #1B2A52;
+}
+
+.pricing_tab_btn .toggle {
+    position: relative;
+    width: 58px;
+    height: 32px;
+    background: #CDD7EC;
+    display: inline-block;
+    border-radius: 15px;
+    cursor: pointer;
+    margin: 0 15px;
+}
+
+.pricing_tab_btn .toggle:after {
+    position: absolute;
+    content: "";
+    width: 25px;
+    height: 25px;
+    background: #fff;
+    border-radius: 50px;
+    left: 4px;
+    top: 2.5px;
+}
+
+.pricing_tab_btn .toggle.clicked:after {
+    left: 29px;
+}
+
+.pricing_tab_btn .toggle.clicked~span {
+    color: #1B2A52;
+}
+
+.pricing_tab_btn .toggle+span {
+    color: #878BA9;
+}
+
+.pricing_inner {
+    margin-top: 55px;
+}
+
+.pricing_inner .price_items.year {
+    display: none;
+}
+
+.pricing_inner .price_item {
+    background: #F5F8FF;
+    border-radius: 15px;
+    padding: 30px;
+    padding-top: 40px;
+    transition: all 0.2s linear;
+    cursor: pointer;
+}
+
+.pricing_inner .price_item .price_header h6 {
+    font-size: 22px;
+    color: #1B2A52;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.pricing_inner .price_item .price_header p {
+    font-size: 16px;
+    color: #878BA9;
+    font-family: "Roboto", sans-serif;
+}
+
+.pricing_inner .price_item .price {
+    color: #1B2A52;
+    font-size: 60px;
+    line-height: 1;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.pricing_inner .price_item .price sub {
+    font-size: 18px;
+    font-weight: 400;
+    color: #878BA9;
+}
+
+.pricing_inner .price_item .service_list {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.pricing_inner .price_item .service_list li {
+    font-size: 18px;
+    color: #878BA9;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 10px;
+}
+
+.pricing_inner .price_item .service_list li i {
+    color: #0050b2;
+    margin-right: 8px;
+}
+
+.pricing_inner .price_item .price_btn {
+    width: 100%;
+    border: 1px solid rgba(197, 203, 217, 0.4);
+    background: #EBEFFA;
+    color: #1B2A52;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.pricing_inner .price_item .price_btn::before {
+    background: #fff;
+}
+
+.pricing_inner .price_item .price_btn:hover {
+    border-color: #fff;
+    color: #0050b2;
+}
+
+.pricing_inner .price_item:hover {
+    background: #0050b2;
+}
+
+.pricing_inner .price_item:hover .price_header h6,
+.pricing_inner .price_item:hover .price_header p,
+.pricing_inner .price_item:hover .price,
+.pricing_inner .price_item:hover .price sub,
+.pricing_inner .price_item:hover .service_list li,
+.pricing_inner .price_item:hover .service_list li i {
+    color: #fff;
+}
+
+.pricing_inner.active .price_items.month {
+    display: none;
+}
+
+.pricing_inner.active .price_items.year {
+    display: block;
+}
+
+.pricing_plan_aiea .pricing_content .price_items .pricing_plan_aiea .pricing_content .price_items .single_price_item .top_area {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #E9E9E9;
+    padding-bottom: 3px;
+    text-align: left;
+}
+
+.pricing_plan_aiea .pricing_content .price_items .single_price_item .top_area .content h6 {
+    color: #222;
+    font-family: "Sora", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    margin-bottom: 5px;
+}
+
+.pricing_plan_aiea .pricing_content .price_items .single_price_item .top_area .content p {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #5E6282;
+}
+
+.pricing_plan_aiea .pricing_content .price_items .single_price_item .top_area .price {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    color: #050505;
+}
+
+.pricing_plan_aiea .pricing_content .price_items .single_price_item .service_list {
+    padding-top: 15px;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.pricing_plan_aiea .pricing_content .price_items .single_price_item .service_list li {
+    margin: 10px 0;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 35px;
+    color: #5E6282;
+}
+
+.pricing_plan_aiea .pricing_content .price_items .single_price_item .service_list li i {
+    background: #55E6A5;
+    padding: 4px;
+    border-radius: 50px;
+    font-size: 14px;
+    margin-right: 10px;
+    color: #fff;
+}
+
+/* end pricing css */
+
+/* start hero image css */
+
+.bank-card-img {
+    position: relative;
+    height: 100%;
+    z-index: 1;
+}
+
+.bank-card-img .bank-card {
+    position: absolute;
+}
+
+.bank-card-img .bank-card:nth-child(1) {
+    bottom: 108px;
+    z-index: 1;
+}
+
+.bank-card-img .bank-card:nth-child(2) {
+    bottom: 0px;
+}
+
+.bank-card-img .bank-card:nth-child(3) {
+    position: relative;
+    z-index: -1;
+    bottom: -100px;
+}
+
+.bank-card-img .shap {
+    position: absolute;
+}
+
+.bank-card-img .shap.one {
+    top: -26px;
+    left: 54%;
+}
+
+.bank-card-img .shap.two {
+    left: 100px;
+    bottom: 100px;
+}
+
+.bank-card-img .shap.three {
+    right: 0;
+    top: 28px;
+}
+
+.bank-card-img .shap.four {
+    right: -230px;
+    bottom: 280px;
+}
+
+/* end hero image css */
+
+/*====== bank-card-area css  ======*/
+
+.bank-card-tab {
+    border: 0px;
+}
+
+.bank-card-tab .nav-item {
+    margin-bottom: 20px;
+}
+
+.bank-card-tab .nav-item .bank-card-item {
+    text-align: left;
+    border-radius: 8px;
+    background: #191919;
+    padding: 30px;
+    border: 0px;
+    position: relative;
+    overflow: hidden;
+}
+
+.bank-card-tab .nav-item .bank-card-item:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 4px;
+    background: #116BD9;
+    position: absolute;
+    top: 0;
+    left: auto;
+    right: 0;
+    transition: width 0.4s linear;
+}
+
+.bank-card-tab .nav-item .bank-card-item h5 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #5E5E5E;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 16px;
+}
+
+.bank-card-tab .nav-item .bank-card-item p {
+    color: #474747;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.8;
+}
+
+.bank-card-tab .nav-item .bank-card-item.active {
+    box-shadow: 0px 5px 70px 0px rgba(1, 33, 58, 0.03);
+    background: #282828;
+}
+
+.bank-card-tab .nav-item .bank-card-item.active:before {
+    width: 100%;
+    right: auto;
+    left: 0;
+}
+
+.bank-card-tab .nav-item .bank-card-item.active h5 {
+    color: #fff;
+}
+
+.bank-card-tab .nav-item .bank-card-item.active p {
+    color: #fff;
+    opacity: 0.8;
+}
+
+.bank-card-tab .nav-item:nth-child(2) .bank-card-item:before {
+    background: #D8B585;
+}
+
+.bank-card-tab .nav-item:nth-child(3) .bank-card-item:before {
+    background: #7758CB;
+}
+
+.card-img .card_one {
+    position: relative;
+    z-index: 1;
+}
+
+.card-img .card_two {
+    margin-top: -100px;
+    z-index: 0;
+    position: relative;
+}
+
+.bank-card-content .active .card_one {
+    animation: fadeInUp 2s;
+}
+
+.bank-card-content .active .card_two {
+    animation: fadeInUp 1s;
+}
+.card-img{
+    overflow: hidden;
+}
+
+/*========= map_area css =======*/
+.map_inner {
+    position: relative;
+}
+
+.map_inner .map_list li {
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+    box-shadow: 0px 9.9047622681px 22.8571414948px rgba(36, 48, 64, 0.2);
+    position: absolute;
+    background: #fff;
+    transform: scale(0.9);
+    transition: all 0.3s;
+}
+
+.map_inner .map_list li.active {
+    transform: scale(1.01);
+}
+
+.map_inner .map_list li:nth-child(1) {
+    left: 220px;
+    top: 55px;
+}
+
+.map_inner .map_list li:nth-child(2) {
+    left: 160px;
+    top: 185px;
+}
+
+.map_inner .map_list li:nth-child(3) {
+    left: 323px;
+    bottom: 148px;
+}
+
+.map_inner .map_list li:nth-child(4) {
+    left: 564px;
+    top: 50px;
+}
+
+.map_inner .map_list li:nth-child(5) {
+    left: 630px;
+    bottom: 105px;
+}
+
+.map_inner .map_list li:nth-child(6) {
+    right: 330px;
+    bottom: 255px;
+}
+
+.map_inner .map_list li:nth-child(7) {
+    right: 140px;
+    bottom: 135px;
+}
+
+.map_inner .map_list li:nth-child(8) {
+    right: 160px;
+    top: 60px;
+}
+
+.map_inner .map_list li img {
+    max-width: 100%;
+}
+
+/*  */
+.app-showcase-item {
+    border-radius: 16px;
+    background: #DBECFF;
+    padding: 45px 32px 0px;
+    position: relative;
+    z-index: 1;
+}
+
+.app-showcase-item .round {
+    width: 670px;
+    height: 670px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: -1;
+    background: linear-gradient(135deg, rgba(199, 250, 254, 0) 0%, #FFF 100%);
+    opacity: 0.35;
+    left: -40%;
+    top: -56%;
+}
+
+.app-showcase-item img {
+    max-width: 100%;
+    border-top-left-radius: 17px;
+    border-top-right-radius: 17px;
+    box-shadow: 0px 7.5811514854px 18.952878952px 0px rgba(178, 187, 228, 0.5);
+}
+
+.app-showcase-item h4 {
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: -0.24px;
+    margin-bottom: 16px;
+}
+
+.app-showcase-item p {
+    color: #596C8D;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    margin-bottom: 38px;
+}
+
+.app-showcase-item .theme-btn {
+    color: #1B2A52;
+    font-family: "Poppins", sans-serif;
+}
+
+.app-showcase-item.box-two {
+    background: linear-gradient(180deg, #FADFFF 0%, #C3D1FF 100%);
+}
+
+.app-showcase-item.box-three .img {
+    text-align: right;
+    position: relative;
+    flex: 1;
+}
+
+.app-showcase-item.box-three .img img {
+    box-shadow: none;
+}
+
+.app-showcase-item.box-three .img .app_shap_img {
+    position: absolute;
+}
+
+.app-showcase-item.box-three .img .app_shap_img.one {
+    left: -80px;
+    bottom: 40px;
+}
+
+.app-showcase-item.box-three .img .app_shap_img.two {
+    right: -85px;
+    top: 40px;
+}
