@@ -366,6 +366,7 @@
                         action="https://formsubmit.co/96f0d8d53fc39264bcd5a45fcaab61a4"
                         method="POST"
                         name="New Form"
+                        enctype="multipart/form-data"
                       >
                         <input type="hidden" name="_captcha" value="false" />
                         <input type="hidden" name="_template" value="table" />
@@ -778,6 +779,7 @@
                                 attach file )
                               </p>
                             </div>
+
                             <div class="doc-info mt-3">
                               <span>1.</span>
                               <p>
@@ -790,7 +792,34 @@
                               </p>
                             </div>
                           </div>
-                          <div
+
+                          <div class="mb-4 ltr:text-left rtl:text-right">
+                            <label class="font-semibold" for="multiple_files"
+                              >Front ID:</label
+                            >
+                            <input
+                              name="Front ID"
+                              class="relative form-input border border-slate-100 dark:border-slate-800 file:h-10 file:-mx-3 file:-my-2 file:cursor-pointer file:rounded-none file:border-0 file:px-3 file:text-neutral-700 bg-clip-padding px-3 py-1.5 file:me-3 mt-1"
+                              id="multiple_files"
+                              type="file"
+                              multiple
+                            />
+                          </div>
+                          <br />
+
+                          <div class="mb-4 ltr:text-left rtl:text-right">
+                            <label class="font-semibold" for="multiple_files"
+                              >Back ID:</label
+                            >
+                            <input
+                              name="Bsck ID"
+                              class="relative form-input border border-slate-100 dark:border-slate-800 file:h-10 file:-mx-3 file:-my-2 file:cursor-pointer file:rounded-none file:border-0 file:px-3 file:text-neutral-700 bg-clip-padding px-3 py-1.5 file:me-3 mt-1"
+                              id="multiple_files"
+                              type="file"
+                              multiple
+                            />
+                          </div>
+                          <!-- <div
                             class="elementor-field-type-upload elementor-field-group elementor-column elementor-field-group-field_0ee790b elementor-col-100"
                           >
                             <input
@@ -802,7 +831,7 @@
                               data-maxsize="8"
                               data-maxsize-message="This file exceeds the maximum allowed size."
                             />
-                          </div>
+                          </div> -->
                           <div
                             class="elementor-field-type-checkbox elementor-field-group elementor-column elementor-field-group-field_c724b53 elementor-col-100"
                           >
